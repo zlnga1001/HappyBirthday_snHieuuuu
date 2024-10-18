@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import Card from './Card';  // Assuming your Card component is in the same folder
+import Card from './Card';  
 
 function App() {
   return (
