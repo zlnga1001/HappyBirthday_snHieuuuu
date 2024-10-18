@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
-import './styles.css';  // Your styles
+import './styles.css';  
 
 export default function Card() {
-  // Use a reference to target the audio element
   const audioRef = useRef(null);
 
   // Function to play music when hovering
@@ -13,7 +12,7 @@ export default function Card() {
   // Function to pause music when hover stops
   const handleMouseLeave = () => {
     audioRef.current.pause();
-    audioRef.current.currentTime = 0; // Optional: Restart the audio when hover is removed
+    audioRef.current.currentTime = 0; // Restart the audio when hover is removed
   };
 
   return (
